@@ -3,23 +3,23 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || '94761516805'  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
+global.owner = process.env.OWNER_NUMBER || '94717162295'  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://SithumKalhara:97531@cluster0.iva7dbo.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
-global.email = 'Sithumkalhara271@gmail.com'
-global.github = 'https://github.com/Sithuwa/SITHUWA-MD'
+global.email = 'tharuboy388@gmail.com'
+global.github = 'https://github.com//mafy-MD'
 global.location = 'Sri Lanka'
 global.gurl = 'https://instagram.com' // add your username
-global.sudo = process.env.SUDO || "94761516805"
+global.sudo = process.env.SUDO || "94717162295"
 global.devs = '94761516805';
-global.website = 'https://github.com/Sithuwa/SITHUWA-MD' //wa.me/+94000000000000
+global.website = 'https://github.com/Sithuwa/MAFI-MD' //wa.me/+94716152295
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/15b1dd8aeaa47888d75d7.jpg'
 module.exports = {
   sessionName: process.env.SESSION_ID || "",      //Put Your Session Id Here
-  author:  process.env.PACK_AUTHER ||  'SITHUWA BOT',
-  packname:  process.env.PACK_NAME || 'MADE BY SITHUM KALHARA',
+  author:  process.env.PACK_AUTHER ||  'TAIGER BOT',
+  packname:  process.env.PACK_NAME || 'MADE BY MAFI TAIGER',
   
-  botname:   process.env.BOT_NAME === undefined ? "SITHUWA-MD" : process.env.BOT_NAME,
+  botname:   process.env.BOT_NAME === undefined ? "MAFI-MD" : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? 'sithumkalhara' : process.env.OWNER_NAME,  
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
