@@ -1,5 +1,5 @@
 {
-  "name": "DEXTER-MD",
+  "name": "MAFI-TAIGER-MD",
   "version": "2.0.0",
   "description": "",
   "main": "media/dexter.js",
@@ -15,9 +15,9 @@
     "dexter-Md",
     "whatsapp",
     "whatsapp-bot",
-    "dexter"
+    "mafy"
   ],
-  "author": "dexter",
+  "author": "mafy",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
